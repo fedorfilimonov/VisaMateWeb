@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .nav-link {
+    @apply text-sm text-zinc-700 hover:text-zinc-900 dark:text-zinc-200 dark:hover:text-white;
+  }
+
+  .section-card {
+    @apply rounded-2xl border border-zinc-200 bg-white/90 shadow-sm dark:border-zinc-800 dark:bg-zinc-900;
+  }
+}
